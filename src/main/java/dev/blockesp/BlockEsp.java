@@ -176,7 +176,7 @@ public final class BlockEsp {
                         RenderSystem.getModelViewMatrix(),
                         new Vector4f(1f, 1f, 1f, 1f),
                         new Vector3f(),
-                        RenderSystem.getTextureMatrix()
+                        new Matrix4f()
                     );
 
                     RenderTarget target = Minecraft.getInstance().getMainRenderTarget();
