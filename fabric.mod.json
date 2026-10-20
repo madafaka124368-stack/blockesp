@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "blockesp",
+  "version": "${version}",
+  "name": "Block ESP",
+  "description": "Shows chests, barrels and hoppers through walls. Toggle each type with /blockesp.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.blockesp.BlockEspClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
